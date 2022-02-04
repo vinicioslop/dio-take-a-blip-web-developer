@@ -68,8 +68,8 @@ class ContaUniversitaria extends ContaBancaria {
 }
 
 const minhaConta = new ContaCorrente(1, 234, true);
-minhaConta.saldo;
+console.log(minhaConta.saldo);
 minhaConta.depositar(1000);
-minhaConta.saldo;
+console.log(minhaConta.saldo);
 minhaConta.sacar(500);
-minhaConta.saldo;
+console.log(minhaConta.saldo);
