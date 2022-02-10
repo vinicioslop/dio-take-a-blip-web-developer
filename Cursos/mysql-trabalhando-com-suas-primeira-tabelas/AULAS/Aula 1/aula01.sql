@@ -1,3 +1,7 @@
+CREATE DATABASE dio_mysql;
+
+USE dio_mysql;
+
 CREATE TABLE pessoas (
     id INT PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(20) NOT NULL,
@@ -26,3 +30,6 @@ VALUES ('Pedro', '1995-07-17');
 
 INSERT INTO pessoas (nome, nascimento)
 VALUES ('Marcela', '2000-04-05');
+
+INSERT INTO pessoas (nome, nascimento)
+VALUES ('Flávio', '1999-05-12');
